@@ -136,6 +136,7 @@ const QuoteForm = () => {
           <option>Gutter Cleaning</option>
           <option>Shower Glass Treatment</option>
           <option>Man with Van</option>
+          <option>Property Manager Referral / Job</option>
           <option>Other</option>
         </select>
       </div>
@@ -162,7 +163,7 @@ const QuoteForm = () => {
         ) : (
           <>
             <Send size={18} />
-            <span>{formData.service === 'Property Manager' ? 'Send Referral' : 'Get My Free Quote'}</span>
+            <span>{formData.service === 'Property Manager Referral / Job' ? 'Send Referral' : 'Get My Free Quote'}</span>
           </>
         )}
       </button>

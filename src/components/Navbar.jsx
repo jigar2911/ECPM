@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Menu, X, Phone, MessageCircle } from 'lucide-react';
+import { Menu, X, Phone, MessageCircle, Leaf } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const Navbar = () => {
@@ -21,8 +21,17 @@ const Navbar = () => {
   return (
     <nav className="fixed w-full z-50 bg-secondary/95 backdrop-blur-md py-3 shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
-        <Link to="/" className="text-2xl font-black text-white tracking-tighter">
-          EARTH<span className="text-primary">CARE</span>
+        <Link to="/" className="flex items-center space-x-2 group">
+          <div className="relative">
+            <Leaf className="text-primary group-hover:rotate-12 transition-transform duration-300" size={32} />
+            <div className="absolute -top-1 -right-1 w-3 h-3 bg-white rounded-full flex items-center justify-center">
+              <div className="w-1.5 h-1.5 bg-primary rounded-full animate-pulse"></div>
+            </div>
+          </div>
+          <div className="flex flex-col leading-none">
+            <span className="text-xl font-black text-white tracking-tighter uppercase">Earth<span className="text-primary">Care</span></span>
+            <span className="text-[10px] text-gray-400 font-bold tracking-[0.2em] uppercase">Property Maintenance</span>
+          </div>
         </Link>
 
         <div className="hidden lg:flex items-center space-x-8">

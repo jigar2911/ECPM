@@ -29,13 +29,13 @@ const Contact = () => {
                 </div>
               </a>
 
-              <a href="mailto:earthcaremaintenance@gmail.com" className="flex items-center space-x-6 group">
+              <a href="mailto:info@earthcaremaintenance.co.nz" className="flex items-center space-x-6 group">
                 <div className="bg-gray-100 p-5 rounded-2xl text-secondary group-hover:bg-primary group-hover:text-white transition-all duration-300">
                   <Mail size={32} />
                 </div>
                 <div>
                   <p className="text-sm font-bold text-gray-400 uppercase tracking-widest mb-1">Email Support</p>
-                  <p className="text-xl font-black text-secondary break-all">earthcaremaintenance@gmail.com</p>
+                  <p className="text-xl font-black text-secondary break-all">info@earthcaremaintenance.co.nz</p>
                 </div>
               </a>
 

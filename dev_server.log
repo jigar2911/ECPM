@@ -1,0 +1,16 @@
+
+> earth-care-property-maintenance@0.0.0 dev
+> vite
+
+8:23:32 AM [vite] (client) Re-optimizing dependencies because lockfile has changed
+Port 5173 is in use, trying another one...
+Port 5174 is in use, trying another one...
+Port 5175 is in use, trying another one...
+Port 5176 is in use, trying another one...
+Port 5177 is in use, trying another one...
+
+  VITE v6.4.2  ready in 713 ms
+
+  ➜  Local:   http://localhost:5178/
+  ➜  Network: use --host to expose
+8:35:03 AM [vite] (client) page reload src/main.jsx

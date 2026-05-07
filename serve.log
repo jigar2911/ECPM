@@ -1,0 +1,31 @@
+ INFO  Accepting connections at http://localhost:5178
+ HTTP  5/7/2026 8:41:40 AM ::1 GET /
+ HTTP  5/7/2026 8:41:40 AM ::1 Returned 200 in 28 ms
+ HTTP  5/7/2026 8:41:40 AM ::1 GET /assets/index-Dy6rhVpH.js
+ HTTP  5/7/2026 8:41:40 AM ::1 GET /assets/index-CHDOuzQT.css
+ HTTP  5/7/2026 8:41:40 AM ::1 Returned 200 in 8 ms
+ HTTP  5/7/2026 8:41:40 AM ::1 Returned 200 in 21 ms
+ HTTP  5/7/2026 8:41:41 AM ::1 GET /assets/img/IMG-20260507-WA0000.jpg
+ HTTP  5/7/2026 8:41:41 AM ::1 GET /assets/img/IMG-20260506-WA0000.jpg
+ HTTP  5/7/2026 8:41:41 AM ::1 Returned 200 in 27 ms
+ HTTP  5/7/2026 8:41:41 AM ::1 Returned 200 in 24 ms
+ HTTP  5/7/2026 8:42:32 AM ::1 GET /
+ HTTP  5/7/2026 8:42:32 AM ::1 Returned 200 in 3 ms
+ HTTP  5/7/2026 8:42:32 AM ::1 GET /assets/index-Dy6rhVpH.js
+ HTTP  5/7/2026 8:42:32 AM ::1 Returned 200 in 5 ms
+ HTTP  5/7/2026 8:42:32 AM ::1 GET /assets/index-CHDOuzQT.css
+ HTTP  5/7/2026 8:42:32 AM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 8:42:33 AM ::1 GET /assets/img/IMG-20260507-WA0000.jpg
+ HTTP  5/7/2026 8:42:33 AM ::1 Returned 200 in 7 ms
+ HTTP  5/7/2026 8:42:33 AM ::1 GET /assets/img/IMG-20260506-WA0000.jpg
+ HTTP  5/7/2026 8:42:33 AM ::1 Returned 200 in 3 ms
+ HTTP  5/7/2026 8:44:00 AM ::1 GET /
+ HTTP  5/7/2026 8:44:00 AM ::1 Returned 200 in 5 ms
+ HTTP  5/7/2026 8:44:00 AM ::1 GET /assets/index-Dy6rhVpH.js
+ HTTP  5/7/2026 8:44:00 AM ::1 GET /assets/index-CHDOuzQT.css
+ HTTP  5/7/2026 8:44:00 AM ::1 Returned 200 in 11 ms
+ HTTP  5/7/2026 8:44:00 AM ::1 Returned 200 in 5 ms
+ HTTP  5/7/2026 8:44:00 AM ::1 GET /assets/img/IMG-20260507-WA0000.jpg
+ HTTP  5/7/2026 8:44:00 AM ::1 GET /assets/img/IMG-20260506-WA0000.jpg
+ HTTP  5/7/2026 8:44:00 AM ::1 Returned 200 in 15 ms
+ HTTP  5/7/2026 8:44:00 AM ::1 Returned 200 in 13 ms

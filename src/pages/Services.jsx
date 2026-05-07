@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion';
 import {
   Waves, Sparkles, Wind, Grid, Droplets,
-  Scissors, Trash2, Home, Truck, GlassWater
+  Scissors, Trash2, Home, Truck, GlassWater,
+  ArrowRight
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -75,5 +76,4 @@ const Services = () => {
   );
 };
 
-import { ArrowRight } from 'lucide-react';
 export default Services;
