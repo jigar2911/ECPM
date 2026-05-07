@@ -1,0 +1,5 @@
+node_modules
+dist
+verification/videos
+verification/screenshots
+vite.log
