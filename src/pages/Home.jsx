@@ -9,7 +9,7 @@ const Home = () => {
       <section className="relative h-screen flex items-center pt-20">
         <div className="absolute inset-0 z-0">
           <img
-            src="/assets/img/IMG-20260507-WA0000.jpg"
+            src="assets/img/IMG-20260507-WA0000.jpg"
             className="w-full h-full object-cover object-center brightness-[0.4]"
             alt="Earth Care Van"
           />
@@ -74,9 +74,9 @@ const Home = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { title: 'Exterior Cleaning', img: '/assets/img/IMG-20260506-WA0000.jpg', services: ['Water Blasting', 'Driveway Washing', 'Window Cleaning'] },
-              { title: 'Indoor Care', img: '/assets/img/IMG-20260507-WA0000.jpg', services: ['Carpet Cleaning', 'End of Tenancy', 'Shower Glass Stain Removal'] },
-              { title: 'Garden & Waste', img: '/assets/img/IMG-20260507-WA0000.jpg', services: ['Lawn Maintenance', 'Gutter Cleaning', 'Rubbish Removal'] },
+              { title: 'Exterior Cleaning', img: 'assets/img/IMG-20260506-WA0000.jpg', services: ['Water Blasting', 'Driveway Washing', 'Window Cleaning'] },
+              { title: 'Indoor Care', img: 'assets/img/IMG-20260507-WA0000.jpg', services: ['Carpet Cleaning', 'End of Tenancy', 'Shower Glass Stain Removal'] },
+              { title: 'Garden & Waste', img: 'assets/img/IMG-20260507-WA0000.jpg', services: ['Lawn Maintenance', 'Gutter Cleaning', 'Rubbish Removal'] },
             ].map((box, i) => (
               <motion.div
                 key={i}
